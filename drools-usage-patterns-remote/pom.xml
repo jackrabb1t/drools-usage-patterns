@@ -14,6 +14,11 @@
 	<name>Drools Usage Patterns Remote</name>
 	
 	<dependencies>
+	      <dependency>
+        <groupId>org.drools</groupId>
+        <artifactId>kiebase-inclusion</artifactId>
+        <version>6.3.0.Final</version>
+      </dependency>
 		<dependency>
 			<groupId>org.kie</groupId>
 			<artifactId>kie-api</artifactId>
@@ -33,7 +38,14 @@
 			<groupId>ch.qos.logback</groupId>
 			<artifactId>logback-classic</artifactId>
 		</dependency>
-
+	    <dependency>
+	      <groupId>org.drools</groupId>
+	      <artifactId>drools-compiler</artifactId>
+	    </dependency>
+	    <dependency>
+	      <groupId>org.drools</groupId>
+	      <artifactId>default-kiesession</artifactId>
+	    </dependency>
 		<dependency>
 			<groupId>com.rhc.drools.example</groupId>
 			<artifactId>drools-usage-patterns-model</artifactId>
